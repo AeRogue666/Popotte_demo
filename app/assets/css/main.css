@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #fff;
+  --color-surface-soft: #f4f6f0;
+  --color-ink: #141414;
+  --color-ink-muted: #333;
+  --color-brand: #3b5710;
+  --color-brand-hover: #2c410c;
+  --color-brand-light: #96c93d;
+}
+
+@theme {
+  /* Theme colors */
+  --color-bg: var(--color-bg);
+  --color-surface-soft: var(--color-surface-soft);
+  --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
+  --color-brand: var(--color-brand);
+  --color-brand-hover: var(--color-brand-hover);
+  --color-brand-light: var(--color-brand-light);
+
+  /* Fonts */
+  --font-display: "Pirata One", serif;
+  --font-serif: "Playfair DIsplay", Georgia, serif;
+  --font-sans: "Open Sans", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: var(--font-sans);
+}
