@@ -28,7 +28,7 @@ const mailHref = computed(() => {
 const devisMailHref = computed(() => {
     const sujet = "Demande de devis traiteur événementiel";
     const corps = "Bonjour Aurélien, \n\nJe souhaite obtenir un devis pour un événement :\n- Date prévue : \n- Nombre de convives : \n- Type de prestation (mariage, réception, séminaire..) : \n\nCordialement,";
-    return `mailt:${traiteurData.contact.email}?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corps)}`;
+    return `mailto:${traiteurData.contact.email}?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corps)}`;
 });
 </script>
 
