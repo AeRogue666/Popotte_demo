@@ -55,9 +55,9 @@ export default defineNuxtConfig({
         ? ["'self'", "'unsafe-inline'", "'wasm-unsafe-eval'", "http://localhost:3000", "ws://localhost:3000", "blob:"]
         : ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'", "'wasm-unsafe-eval'"],
         "script-src-attr": isDev
-        ? ["'unsafe-inline'"]
-        : ["'self'", "data:", "'nonce-{{nonce}}'"],
-        "img-src": ["'self'", "data:", "https://unsplash.com"],
+        ? ["'unsafe-inline'", "'nonce-{{nonce}}'"]
+        : ["'self'", "'nonce-{{nonce}}'", "data:"],
+        "img-src": ["'self'", "data:"],
         "upgrade-insecure-requests": !isDev,
       },
     },
