@@ -31,11 +31,11 @@ export default defineNuxtConfig({
         }
       ],
       link: [
-        { rel: "preconnect", href: "https://googleapis.com" },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
         { rel: "preconnect", href: "https://gstatic.com", crossorigin: "" },
         {
           rel: "stylesheet",
-          href: "https://googleapis.com/css2?family=Open+Sans:ital,wght@0,400..700;1,400..700&family=Pirata+One&family=Playfair+Display;ital,wght@0,600..800;1,600..800&display=swap"
+          href: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         }
       ]
     },
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
         "default-src": ["'self'"],
         "script-src": isDev
         ? ["'self'", "'unsafe-inline'", "'wasm-unsafe-eval'", "http://localhost:3000", "ws://localhost:3000", "blob:"]
-        : ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'", "'wasm-unsafe-eval'"],
+        : ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'", "'wasm-unsafe-eval'", "https://fonts.googleapis.com"],
         "script-src-attr": isDev
         ? ["'unsafe-inline'", "'nonce-{{nonce}}'"]
         : ["'self'", "'nonce-{{nonce}}'", "data:"],
