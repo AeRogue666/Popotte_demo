@@ -5,8 +5,8 @@ export const traiteurData = {
   parcours: "Cuisinier depuis 1996 - Maison fondée en 2014",
   devises: "Originalité, créativité et authenticité sont mes devises. Tout est fait maison.",
   description: [
-    "et son équipe sont fier de vous faire partager leurs savoir-faire artisanal au travers de recettes acquises et exquises, élaborées chaque jour à partir de",
-    "produits frais, et locaux et de saison",
+    "et son équipe sont fiers de vous faire partager leurs savoir-faire artisanal au travers de recettes acquises et exquises, élaborées chaque jour à partir de",
+    "produits frais, locaux et de saison",
     ". Du portage de repas quotidiens à l'organisation de vos plus belles réceptions, retrouvez le goût authentique du fait maison."
   ],
   contact: {
@@ -53,7 +53,7 @@ export const traiteurData = {
       id: "lundi",
       jour: "Lundi",
       entree: "Salade ardéchoise aux lardons et croûtons",
-      plat: "Sauté de porc aux olves et gratin dauphinois",
+      plat: "Sauté de porc aux olives et gratin dauphinois",
       dessert: "Fromage blanc fermier ou Compote maison",
     },
     {
