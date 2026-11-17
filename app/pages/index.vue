@@ -80,8 +80,8 @@ const devisMailHref = computed(() => {
                     <div class="lg:col-span-5 relative">
                         <div class="absolute -left-3 top-6 bottom-6 w-3 bg-brand hidden sm:block"></div>
                         <div class="border-2 border-ink bg-surface-soft aspect-4/5 overflow-hidden relative">
-                            <img src="/images/chef-buffet.png"
-                                alt="Aurélien Malugani et son équipe devant un buffet traiteur"
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/IFA_2012_IMG_5575.JPG"
+                                alt="Internationale Funkausstellung 2012, ARD-Buffet | Michael Movchin | CC BY-SA 3.0"
                                 class="w-full h-full object-cover" onerror="this.style.display='none'">
                         </div>
                         <div class="p-6 flex flex-col justify-end h-full text-stone-600 text-sm">
@@ -178,7 +178,7 @@ const devisMailHref = computed(() => {
                                 {{ traiteurData.prestations.portage.description }}
                             </p>
                             <div class="aspect-auto bg-ink border border-bg/20 overflow-hidden my-4">
-                                <img src="/images/plat-portage.png" alt="Barquettes de repas complets fait maison"
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Chef-d%27%C5%93uvre_de_buffet_charcutier.jpg" alt="The Pastry Chef Desert Buffet Cakes and Pastries | Judgefloro | CC CC0 1.0 Universal Public Domain Dedication"
                                     class="w-full h-full object-cover" onerror="this.style.display='none'">
                             </div>
                             <p class="text-sm font-semibold text-brand-light pt-3 border-t border-bg/20">
@@ -208,7 +208,7 @@ const devisMailHref = computed(() => {
                                 {{ traiteurData.prestations.evenementiel.specialite }}
                             </p>
                             <div class="aspect-auto bg-surface-soft border border-ink/20 overflow-hidden my-4">
-                                <img src="/images/plat-traiteur.png" alt="Bouchées et Assiettes traiteurs dressées pour mariages et réceptions."
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/09376jfBuffets_Philippines_Cakes_Pastries_Pulilan%2C_Bulacanfvf_42.jpg" alt="Buffet charcutier à Gondecourt | DaffyDuke | CC BY-SA 2.0"
                                     class="w-full h-full object-cover" onerror="this.style.display='none'">
                             </div>
                             <p class="text-sm font-semibold text-ink pt-3 border-t border-ink/20">

@@ -1,8 +1,8 @@
 export const traiteurData = {
-  enseigne: "La Popotte de Gros Papa",
+  enseigne: "La Popotte du Petit Ardéchois",
   slogan: "Artisan - Traiteur | Goûtez la différence",
-  chef: "Aurélien Malugani",
-  parcours: "Cuisinier depuis 1996 - Maison fondée en 2014",
+  chef: "Aurélien de CodeKorico",
+  parcours: "Cuisinier depuis 2000 - Maison fondée en 2009",
   devises: "Originalité, créativité et authenticité sont mes devises. Tout est fait maison.",
   description: [
     "et son équipe sont fiers de vous faire partager leurs savoir-faire artisanal au travers de recettes acquises et exquises, élaborées chaque jour à partir de",
@@ -10,12 +10,12 @@ export const traiteurData = {
     ". Du portage de repas quotidiens à l'organisation de vos plus belles réceptions, retrouvez le goût authentique du fait maison."
   ],
   contact: {
-    telephoneDisplay: "06 09 37 39 71",
-    telephoneHref: "tel:+33609373971",
-    email: "bobmalu07@gmail.com",
-    adresse: "105 Chemin du Pont de Prades",
-    codePostal: "07380",
-    ville: "Prades",
+    telephoneDisplay: "07 43 34 78 03",
+    telephoneHref: "tel:+33743347803",
+    email: "contact@codekorico.com",
+    adresse: "555 Les Traverses",
+    codePostal: "07200",
+    ville: "Lachapelle-sous-Aubenas",
     horaires: [
       {
         jours: "Lundi au Vendredi",

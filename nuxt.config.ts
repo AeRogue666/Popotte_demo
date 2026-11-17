@@ -20,14 +20,16 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "La Popotte à Gros Papa - Artisan Traiteur à Prades",
+      title: "La Popotte du Petit Ardéchois - Artisan Traiteur à Lachapelle-sous-Aubenas",
+      // title: "La Popotte à Gros Papa - Artisan Traiteur à Prades",
       htmlAttrs: {
         lang: "fr",
       },
       meta: [
         {
           name: "description",
-          content: "Aurélien Malugani, artisan traiteur à Prades (Ardèche). 25 ans d'expériences : portage de repas fait maison à domicile et traiteur événementiel (mariages, réceptions)."
+          content: "Aurélien de CodeKorico, artisan traiteur à Lachapelle-sous-Aubenas (Ardèche). 25 ans d'expériences : portage de repas fait maison à domicile et traiteur événementiel (mariages, réceptions).",
+          // content: "Aurélien Malugani, artisan traiteur à Prades (Ardèche). 25 ans d'expériences : portage de repas fait maison à domicile et traiteur événementiel (mariages, réceptions)."
         }
       ],
       link: [
@@ -55,9 +57,9 @@ export default defineNuxtConfig({
         ? ["'self'", "'unsafe-inline'", "'wasm-unsafe-eval'", "http://localhost:3000", "ws://localhost:3000", "blob:"]
         : ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'", "'wasm-unsafe-eval'", "https://fonts.googleapis.com"],
         "script-src-attr": isDev
-        ? ["'unsafe-inline'", "'nonce-{{nonce}}'"]
+        ? ["'self'", "'nonce-{{nonce}}'", "data:"]
         : ["'self'", "'nonce-{{nonce}}'", "data:"],
-        "img-src": ["'self'", "data:"],
+        "img-src": ["'self'", "data:", "https://upload.wikimedia.org/"],
         "upgrade-insecure-requests": !isDev,
       },
     },
